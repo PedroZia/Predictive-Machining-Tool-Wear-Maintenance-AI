@@ -1,3 +1,4 @@
+```mermaid
 %% Diagrama de Fluxo
 graph TD
     A[Início] --> B{Decisão}
@@ -59,7 +60,7 @@ classDiagram
 %% Diagrama de Entidade-Relacionamento
 erDiagram
     CLIENTE ||--o{ PEDIDO : faz
-    PEDIDO }|--|{ PRODUTO : contém
+    PEDIDO }|--|{ PRODUTO : contem
     CLIENTE {
         int id
         string nome
@@ -83,3 +84,4 @@ graph LR
     Servidor ---|Banco de Dados| BD
     Servidor ---|API| Aplicação
     Aplicação ---|Usuário| Cliente
+```
