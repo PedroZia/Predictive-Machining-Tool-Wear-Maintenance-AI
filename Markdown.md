@@ -5,3 +5,4 @@
     B -->|Não| D[Processo 2]
     C --> E[Fim]
     D --> E[Fim]
+    C[Sensor] -->
