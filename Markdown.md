@@ -1,7 +1,7 @@
 ```mermaid
 %% Diagrama de Fluxo
 graph TD
-    A[Predictive Machining Tool Wear AI] --> B[Fisical]
+    A[Predictive Machining Tool Wear Maintenance AI] --> B[Fisical]
     A --> C[Virtual]
     B --> D(Microcontroller)
     D --> H[Arduino 33 BLE] --> N
